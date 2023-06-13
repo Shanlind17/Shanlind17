@@ -29,15 +29,15 @@ $(function () {
      * Comment the lines out to remove the grid
      */
 
-    // Loop to create vertical grid lines
-    // for (let i = 100; i < canvas.width; i += 100) {
-    //   createPlatform(i, 0, 1, canvas.height);
-    // }
+   // Loop to create vertical grid lines
+   // for (let i = 100; i < canvas.width; i += 100 {
+   //  createPlatform(i, 0, 1, canvas.height);
+  //  }
 
     // Loop to create horizontal gride lines
-    // for (let i = 100; i < canvas.height; i += 100) {
-    //   createPlatform(0, i, canvas.width, 1);
-    // }
+   // for (let i = 100; i < canvas.height; i += 100) {
+   //    createPlatform(0, i, canvas.width, 1);
+   //  }
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -47,17 +47,21 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-
-
-
+    createPlatform(500, 650, 300, 20); 
+    createPlatform(350, 370, 160, 20)
+    createPlatform(13-0,500,300,20)
+    createPlatform(600,450,150,20);
     
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-
-
+    createCollectable("database" , 360, 170, 6, 0.7);
+    createCollectable("steve", 300, 300, 20, 0.5); 
+    createCollectable("kennedi" , 500, 300, 20, 0.5);
+    
+  
 
 
     // TODO 3
@@ -65,9 +69,9 @@ $(function () {
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-
-
-
+    createCannon("left", 00, 1000); // cannon on right wall, 500px down, shooting once per second
+    createCannon("bottom", 00, 1000); // cannon on left wall, 600px down, shooting once per second
+    createCannon("top", 00, 1000); // cannon on left wall, 600px down, shooting once per second
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
