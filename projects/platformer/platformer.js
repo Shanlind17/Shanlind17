@@ -64,9 +64,8 @@ $(function () {
     createCollectable("database" , 996, 340);
     createCollectable("steve", 900, 340); 
     createCollectable("database" , 1111, 340);
-    createCollectable("grace", 600, 340);
-    createCollectable("max",389,200);
-
+    createCollectable("Dog", 600, 340);
+    createCollectable("Sword",389,200);
     
   
 
